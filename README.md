@@ -49,4 +49,5 @@ Hari Ini: Lihat rencana makan hari ini.
 Semua Riwayat: Lihat seluruh catatan, diurutkan dari yang terbaru.
 
 
-assests/images/chat.png
+![Halaman Chat](assets/images/logo.png)
+
