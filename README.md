@@ -49,5 +49,6 @@ Hari Ini: Lihat rencana makan hari ini.
 Semua Riwayat: Lihat seluruh catatan, diurutkan dari yang terbaru.
 
 
-![Halaman Chat](assets/images/logo.png)
+![Halaman Chat](https://github.com/hasa14-ecc/Meal-Planner/blob/main/assests/images/chat.png?raw=true)
+
 
