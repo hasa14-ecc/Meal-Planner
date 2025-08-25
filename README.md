@@ -48,7 +48,14 @@ Hari Ini: Lihat rencana makan hari ini.
 
 Semua Riwayat: Lihat seluruh catatan, diurutkan dari yang terbaru.
 
-
+Halaman Perencana Makan :
+![Halaman Perencana Makan](https://github.com/hasa14-ecc/Meal-Planner/blob/main/assests/images/perencana.png?raw=true)
+Halaman History :
+![Halaman History](https://github.com/hasa14-ecc/Meal-Planner/blob/main/assests/images/history1.png?raw=true)
+![Halaman History](https://github.com/hasa14-ecc/Meal-Planner/blob/main/assests/images/history2.png?raw=true)
+![Halaman History](https://github.com/hasa14-ecc/Meal-Planner/blob/main/assests/images/history3.png?raw=true)
+Halaman Chat :
 ![Halaman Chat](https://github.com/hasa14-ecc/Meal-Planner/blob/main/assests/images/chat.png?raw=true)
+
 
 
