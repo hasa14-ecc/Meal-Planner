@@ -5,8 +5,11 @@ Meal Planner adalah aplikasi web berbasis Streamlit untuk membantu merencanakan 
 Fitur : 
 
 a. Cari Nutrisi Otomatis: Cari informasi gizi makanan berdasarkan nama dan porsi.
+
 b. Input Manual: Tambahkan makanan dengan nutrisi sesuai keinginan.
+
 c. Perencanaan Harian: Sesuaikan rencana makan dengan kebutuhan kalori berdasarkan berat badan.
+
 d. Riwayat Makan: Simpan dan lihat rencana makan harian, lengkap dengan detail nutrisi.
 
 Cara Menggunakan
@@ -35,6 +38,7 @@ Halaman History :
 ![Halaman History](https://github.com/hasa14-ecc/Meal-Planner/blob/main/assests/images/history3.png?raw=true)
 Halaman Chat :
 ![Halaman Chat](https://github.com/hasa14-ecc/Meal-Planner/blob/main/assests/images/chat.png?raw=true)
+
 
 
 
