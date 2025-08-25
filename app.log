@@ -1,0 +1,871 @@
+2025-08-20 20:42:19,162 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-20 20:42:19,217 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-20 20:42:19,218 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-20 20:42:25,881 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-20 20:42:32,032 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-20 20:42:32,049 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-20 20:42:32,050 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-20 20:42:39,277 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-20 20:42:39,282 - chat - ERROR - Invalid encryption token.
+2025-08-20 20:42:51,474 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-20 20:42:51,483 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-20 20:42:51,483 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-20 20:43:56,764 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-08-20 20:44:07,214 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-20 20:44:25,255 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-20 20:44:32,054 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-20 20:44:43,139 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-20 20:45:01,632 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-20 20:45:01,649 - __main__ - ERROR - Error di aplikasi utama: name 'MealPlannerAgent' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\main.py", line 47, in main
+    chat.app()
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\chat.py", line 223, in app
+    agent = MealPlannerAgent(call_chat_api, food_database)
+            ^^^^^^^^^^^^^^^^
+NameError: name 'MealPlannerAgent' is not defined
+2025-08-20 20:45:07,456 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-20 20:45:07,466 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-20 20:45:07,466 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-20 20:45:17,442 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-20 20:45:21,962 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-20 20:45:21,973 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-20 20:45:21,973 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-20 20:45:22,186 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-20 20:45:22,196 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-20 20:45:22,196 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-20 20:45:28,586 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-20 20:45:28,617 - streamlit_meal_planner - ERROR - Error saat membuat rencana: 'MealPlannerAgent' object has no attribute 'iterate'
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\streamlit_meal_planner.py", line 156, in app
+    final = agent.iterate(goal_dict, max_iters=3)
+            ^^^^^^^^^^^^^
+AttributeError: 'MealPlannerAgent' object has no attribute 'iterate'
+2025-08-20 20:45:43,600 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-20 20:45:43,644 - agent - ERROR - Invalid encryption token.
+2025-08-21 09:14:23,450 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:14:23,460 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:14:23,460 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:14:43,180 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:14:43,191 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:14:43,191 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:14:47,052 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:14:47,061 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:14:47,062 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:14:53,226 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:14:53,236 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:14:53,236 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:14:59,070 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:14:59,077 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:14:59,077 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:15:02,020 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:15:02,031 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:15:02,031 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:15:04,494 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:15:04,501 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:15:04,501 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:15:08,943 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:15:08,958 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:15:08,958 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:15:19,393 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:15:19,401 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:15:19,402 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:15:24,681 - streamlit_meal_planner - ERROR - Error saat membuat rencana: 'MealPlannerAgent' object has no attribute 'iterate'
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\streamlit_meal_planner.py", line 156, in app
+    final = agent.iterate(goal_dict, max_iters=3)
+            ^^^^^^^^^^^^^
+AttributeError: 'MealPlannerAgent' object has no attribute 'iterate'
+2025-08-21 09:16:16,845 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-21 09:16:16,852 - agent - ERROR - Invalid encryption token.
+2025-08-21 09:16:19,615 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 09:16:19,620 - chat - ERROR - Invalid encryption token.
+2025-08-21 09:16:27,878 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 09:16:27,887 - __main__ - ERROR - Error di aplikasi utama: name 'MealPlannerAgent' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\main.py", line 47, in main
+    chat.app()
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\chat.py", line 223, in app
+    agent = MealPlannerAgent(call_chat_api, food_database)
+            ^^^^^^^^^^^^^^^^
+NameError: name 'MealPlannerAgent' is not defined
+2025-08-21 09:19:08,949 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:19:08,957 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:19:08,957 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:19:20,727 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 09:19:20,734 - chat - ERROR - Invalid encryption token.
+2025-08-21 09:19:29,957 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 09:19:29,965 - __main__ - ERROR - Error di aplikasi utama: cannot access local variable 'agent' where it is not associated with a value
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\main.py", line 47, in main
+    chat.app()
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\chat.py", line 223, in app
+    agent = agent(call_chat_api, food_database)
+            ^^^^^
+UnboundLocalError: cannot access local variable 'agent' where it is not associated with a value
+2025-08-21 09:24:46,385 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:24:46,392 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:24:46,393 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:27:06,181 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:27:06,187 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:27:06,187 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:27:25,824 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:27:25,835 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:27:25,836 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:27:30,017 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:27:30,027 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:27:30,027 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:27:35,629 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:27:35,640 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:27:35,640 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:27:41,969 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:27:41,977 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:27:41,977 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:27:44,162 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:27:44,173 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:27:44,173 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:27:46,672 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:27:46,682 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:27:46,682 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:27:50,430 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:27:50,441 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:27:50,442 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:28:06,302 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:28:06,308 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:28:06,310 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:28:16,961 - streamlit_meal_planner - ERROR - Error saat membuat rencana: name 'encryption_key' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\streamlit_meal_planner.py", line 158, in app
+    kba_module.add_meal_plan_to_history(final["final_report"])
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\kba.py", line 11, in add_meal_plan_to_history
+    history = get_meal_plan_history(filename)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\kba.py", line 28, in get_meal_plan_history
+    decrypted = decrypt_data(encrypted)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\agent.py", line 38, in decrypt_data
+    return encryption_key.decrypt(encrypted.encode()).decode()
+           ^^^^^^^^^^^^^^
+NameError: name 'encryption_key' is not defined. Did you mean: 'get_encryption_key'?
+2025-08-21 09:28:32,383 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 09:28:32,391 - __main__ - ERROR - Error di aplikasi utama: name 'encryption_key' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\main.py", line 47, in main
+    chat.app()
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\chat.py", line 160, in app
+    st.session_state.chat_history = load_chat_history_from_file()
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\chat.py", line 80, in load_chat_history_from_file
+    decrypted = decrypt_data(encrypted)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\agent.py", line 38, in decrypt_data
+    return encryption_key.decrypt(encrypted.encode()).decode()
+           ^^^^^^^^^^^^^^
+NameError: name 'encryption_key' is not defined. Did you mean: 'get_encryption_key'?
+2025-08-21 09:28:46,118 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-21 09:28:46,121 - __main__ - ERROR - Error di aplikasi utama: name 'encryption_key' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\main.py", line 45, in main
+    kba.app()
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\kba.py", line 54, in app
+    history = get_meal_plan_history()
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\kba.py", line 28, in get_meal_plan_history
+    decrypted = decrypt_data(encrypted)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\agent.py", line 38, in decrypt_data
+    return encryption_key.decrypt(encrypted.encode()).decode()
+           ^^^^^^^^^^^^^^
+NameError: name 'encryption_key' is not defined. Did you mean: 'get_encryption_key'?
+2025-08-21 09:42:19,721 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:42:19,727 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:42:19,728 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:42:37,214 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:42:37,223 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:42:37,224 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:42:40,335 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:42:40,343 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:42:40,344 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:42:43,020 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:42:43,030 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:42:43,031 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:42:45,522 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:42:45,532 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:42:45,532 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:42:46,693 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:42:46,706 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:42:46,706 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:42:48,870 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:42:48,882 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:42:48,883 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:43:03,012 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:43:03,022 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:43:03,023 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:43:03,140 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 09:43:03,151 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:43:03,151 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 09:43:14,428 - agent - ERROR - Invalid encryption token.
+2025-08-21 09:43:47,683 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-21 09:43:51,377 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 09:43:51,382 - agent - ERROR - Invalid encryption token.
+2025-08-21 09:43:58,842 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 09:44:04,976 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 09:44:04,993 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 09:44:04,993 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:53:14,985 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 10:53:14,994 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:53:14,994 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:55:53,292 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 10:55:53,300 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:55:53,301 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:55:56,620 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 10:55:56,630 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:55:56,631 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:55:59,788 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 10:55:59,802 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:55:59,803 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:56:03,122 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 10:56:03,133 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:56:03,134 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:56:04,658 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 10:56:04,669 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:56:04,669 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:56:06,958 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 10:56:06,969 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:56:06,969 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:56:11,783 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 10:56:11,800 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:56:11,802 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:56:11,989 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 10:56:12,000 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:56:12,001 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 10:56:38,297 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-21 10:56:49,661 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 10:56:49,671 - agent - ERROR - Invalid encryption token.
+2025-08-21 10:56:57,782 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 10:56:57,800 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 10:56:57,800 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:15:20,985 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:15:20,995 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:15:20,995 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:15:43,274 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:15:43,295 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:15:43,295 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:15:46,465 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:15:46,481 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:15:46,482 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:15:49,156 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:15:49,176 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:15:49,176 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:15:52,897 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:15:52,910 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:15:52,935 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:15:54,429 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:15:54,448 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:15:54,448 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:15:56,244 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:15:56,253 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:15:56,253 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:15:58,124 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:15:58,135 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:15:58,135 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:16:02,819 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:16:02,830 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:16:02,831 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:16:12,905 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:16:12,916 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:16:12,916 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:16:18,897 - __main__ - ERROR - Error di aplikasi utama: name 'true' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\main.py", line 43, in main
+    streamlit_meal_planner.app()
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\streamlit_meal_planner.py", line 313, in app
+    "beginAtZero": true,
+                   ^^^^
+NameError: name 'true' is not defined. Did you mean: 'True'?
+2025-08-21 11:16:37,551 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 11:16:37,559 - agent - ERROR - Invalid encryption token.
+2025-08-21 11:16:44,161 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 11:16:44,184 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:16:44,185 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:17:01,302 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-21 11:17:11,461 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:17:11,470 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:17:11,470 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:31:13,390 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:31:13,399 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:31:13,399 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:31:54,895 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:31:54,905 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:31:54,906 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:31:58,048 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:31:58,060 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:31:58,063 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:31:59,249 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:31:59,261 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:31:59,261 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:01,023 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:01,034 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:01,036 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:01,284 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:01,298 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:01,299 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:01,640 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:01,656 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:01,657 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:01,801 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:01,812 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:01,813 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,302 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,315 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,315 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,333 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,350 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,350 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,373 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,387 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,387 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,409 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,426 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,427 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,428 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,442 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,442 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,458 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,471 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,471 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,502 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,515 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,516 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,566 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,589 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,592 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,594 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,624 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,630 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:02,633 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,681 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:02,688 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:02,690 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:03,043 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:03,391 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:33,779 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:32:33,839 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:32:33,841 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:32:39,761 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:40,555 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:40,853 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:40,858 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:40,865 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:40,873 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:42,258 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:42,267 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:42,268 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:42,356 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:43,712 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:44,404 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:44,408 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:44,960 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:44,962 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:32:45,437 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:34:12,352 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:34:12,363 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:34:12,364 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:34:18,039 - agent - WARNING - Gagal inisialisasi sentence-transformers: Cannot copy out of meta tensor; no data! Please use torch.nn.Module.to_empty() instead of torch.nn.Module.to() when moving module from meta to a different device.. Menggunakan retrieval sederhana.
+2025-08-21 11:34:18,253 - streamlit_meal_planner - ERROR - Error in meal planning: Invalid format specifier '.2f if isinstance(stats['corr'], float) else stats['corr']' for object of type 'float'
+2025-08-21 11:52:35,920 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:52:35,930 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:52:35,930 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:53:22,974 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:53:22,983 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:53:22,983 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:53:27,581 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:53:27,603 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:53:27,605 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:53:31,653 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:53:31,666 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:53:31,667 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:53:33,948 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:53:33,957 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:53:33,958 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:53:34,981 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:53:34,992 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:53:34,992 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:53:36,545 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:53:36,555 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:53:36,555 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:53:39,303 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:53:39,323 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:53:39,323 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:53:45,404 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:53:45,414 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:53:45,415 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:53:53,646 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-21 11:53:53,659 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:53:53,660 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-21 11:57:51,827 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-21 11:57:58,581 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 11:57:58,592 - agent - ERROR - Invalid encryption token.
+2025-08-21 11:58:08,152 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 11:58:19,496 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-21 11:58:19,518 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-21 11:58:19,520 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:51:04,970 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:51:04,985 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:51:04,986 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:51:45,208 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:51:45,221 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:51:45,222 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:51:48,718 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:51:48,731 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:51:48,733 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:51:49,036 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:51:49,051 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:51:49,051 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:51:52,689 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:51:52,705 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:51:52,705 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:52:03,788 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:52:03,805 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:52:03,815 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:52:05,729 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:52:05,742 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:52:05,743 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:52:08,165 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:52:08,176 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:52:08,176 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:52:12,503 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:52:12,520 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:52:12,521 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:52:16,615 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:52:16,647 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:52:16,648 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:52:28,315 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 14:52:28,326 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 14:52:28,327 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 14:53:03,847 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-23 14:53:16,339 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-23 14:53:29,623 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-23 14:53:37,650 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-23 15:14:10,781 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 15:14:10,786 - agent - ERROR - Invalid encryption token.
+2025-08-23 15:14:16,749 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 15:14:30,313 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 15:14:43,387 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 15:14:43,399 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 15:14:43,400 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 15:14:50,968 - __main__ - ERROR - Error di aplikasi utama: float division by zero
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\main.py", line 47, in main
+    chat.app()
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\chat.py", line 170, in app
+    final = agent.iterate(goal)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\agent.py", line 286, in iterate
+    portion_g = max(100, (goal["target_kcal_per_day"] / 3 / 3) / (self.food_db[found]["kalori"] / 100))
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+2025-08-23 16:32:45,349 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 16:32:45,367 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 16:32:45,367 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 16:32:48,551 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 16:32:48,563 - agent - ERROR - Invalid encryption token.
+2025-08-23 16:33:06,590 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 16:33:13,330 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 16:33:22,342 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 16:33:22,358 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 16:33:22,358 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 16:33:28,506 - __main__ - ERROR - Error di aplikasi utama: float division by zero
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\main.py", line 47, in main
+    chat.app()
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\chat.py", line 170, in app
+    final = agent.iterate(goal)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\agent.py", line 286, in iterate
+    portion_g = max(100, (goal["target_kcal_per_day"] / 3 / 3) / (self.food_db[found]["kalori"] / 100))
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+2025-08-23 16:41:05,946 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 16:41:05,951 - agent - ERROR - Invalid encryption token.
+2025-08-23 16:41:21,835 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 16:41:37,158 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 16:41:37,173 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 16:41:37,174 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 16:41:41,587 - streamlit_meal_planner - ERROR - Error processing request: float division by zero
+2025-08-23 16:41:51,690 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 16:41:51,711 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 16:41:51,712 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 16:41:55,436 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 16:41:55,454 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 16:41:55,454 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 16:41:57,246 - __main__ - ERROR - Error di aplikasi utama: float division by zero
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\main.py", line 47, in main
+    chat.app()
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\chat.py", line 170, in app
+    final = agent.iterate(goal)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\agent.py", line 286, in iterate
+    portion_g = max(100, (goal["target_kcal_per_day"] / 3 / 3) / (self.food_db[found]["kalori"] / 100))
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+2025-08-23 16:42:00,511 - streamlit_meal_planner - ERROR - Error processing request: float division by zero
+2025-08-23 20:02:57,288 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:02:57,297 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:02:57,298 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:03:11,025 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-23 20:03:29,274 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:03:29,278 - agent - ERROR - Invalid encryption token.
+2025-08-23 20:03:33,954 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:03:45,233 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:03:45,242 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:03:45,243 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:04:04,997 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:04:05,011 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:04:05,011 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:04:11,520 - chat - ERROR - Error di proses chat: float division by zero
+2025-08-23 20:06:47,709 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:06:47,717 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:06:47,718 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:09:17,278 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:09:17,285 - agent - ERROR - Invalid encryption token.
+2025-08-23 20:09:19,760 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:09:24,451 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:09:32,701 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:09:40,860 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:09:44,805 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:09:44,820 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:09:44,820 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:09:50,155 - chat - ERROR - Error di proses chat: float division by zero
+Traceback (most recent call last):
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\chat.py", line 191, in app
+    final = agent.iterate(goal)
+            ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ilham\Documents\KULIAH\Sem6\AI\PROUAS\AI-Meal-Planner\agent.py", line 286, in iterate
+    portion_g = max(100, (goal["target_kcal_per_day"] / 3 / 3) / (self.food_db[found]["kalori"] / 100))
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
+2025-08-23 20:24:35,127 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:24:35,136 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:24:35,136 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:25:01,962 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:25:01,969 - agent - ERROR - Invalid encryption token.
+2025-08-23 20:25:06,814 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:25:19,588 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:25:19,607 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:25:19,607 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:25:38,050 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-23 20:26:47,801 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:26:47,813 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:26:47,813 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:27:09,603 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:27:09,614 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:27:09,614 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:27:12,246 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:27:12,260 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:27:12,260 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:27:15,914 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:27:15,924 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:27:15,925 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:27:19,875 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:27:19,886 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:27:19,886 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:27:20,940 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:27:20,950 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:27:20,950 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:27:23,980 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:27:23,991 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:27:23,991 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:27:27,027 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:27:27,039 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:27:27,039 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:27:33,009 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:27:33,022 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:27:33,023 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:27:42,581 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:27:42,589 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:27:42,589 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:29:48,988 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:29:48,999 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:29:48,999 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:29:53,609 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:29:53,619 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:29:53,620 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:30:29,346 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:30:29,357 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:30:29,358 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:30:32,989 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:30:32,997 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:30:32,998 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:30:34,244 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:30:34,254 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:30:34,256 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:30:36,546 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:30:36,556 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:30:36,557 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:30:55,632 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:30:55,642 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:30:55,643 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:31:00,192 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:31:59,850 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-23 20:33:24,196 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:33:27,548 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-23 20:34:21,229 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:34:36,016 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:34:47,858 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:34:47,877 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:34:47,878 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:35:49,412 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:35:59,357 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:36:19,085 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:36:19,110 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:36:19,111 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:36:24,441 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:36:45,285 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:36:58,689 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:36:58,713 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:36:58,713 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:37:03,195 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:37:03,196 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:37:03,199 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:37:03,204 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:37:38,853 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:37:38,882 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:37:38,882 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:37:46,093 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:37:46,094 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:37:46,096 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:38:09,097 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:38:09,128 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:38:09,129 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:38:13,943 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:38:13,944 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:38:13,945 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:42:46,955 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 20:42:46,964 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:42:46,964 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:43:00,679 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:43:00,688 - agent - ERROR - Invalid encryption token.
+2025-08-23 20:43:05,481 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:43:05,496 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:43:05,497 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:43:09,602 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:43:09,603 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:43:09,604 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:43:09,605 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:43:09,607 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:43:13,975 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:43:13,993 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:43:13,994 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:43:18,550 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:43:18,552 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:43:43,497 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:43:43,518 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:43:43,518 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:43:47,754 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:44:00,851 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:44:00,873 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:44:00,874 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:44:06,030 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:44:06,031 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:44:43,871 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:44:43,893 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:44:43,893 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:44:48,633 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:44:48,636 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:45:09,113 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:45:09,139 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:45:09,140 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:45:13,584 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:45:13,585 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:45:43,357 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:45:43,381 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:45:43,382 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:45:47,390 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:45:47,392 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:45:47,393 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:47:08,688 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:47:08,715 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:47:08,720 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:47:15,615 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:47:15,616 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:47:15,619 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 20:48:38,414 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 20:48:38,442 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 20:48:38,442 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 20:48:48,377 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 21:08:39,202 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-23 21:08:39,210 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 21:08:39,210 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 21:09:11,336 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 21:09:11,344 - agent - ERROR - Invalid encryption token.
+2025-08-23 21:09:21,461 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-23 21:09:21,477 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-23 21:09:21,477 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-23 21:09:33,225 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 21:09:33,226 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 21:09:33,229 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-23 21:09:33,231 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-24 10:22:40,287 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-24 10:22:40,300 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 10:22:40,300 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 10:23:09,347 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 10:23:09,358 - agent - ERROR - Invalid encryption token.
+2025-08-24 10:23:22,893 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 10:23:22,911 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 10:23:22,911 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 10:23:42,977 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-24 10:27:29,357 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-24 10:27:29,369 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 10:27:29,371 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 10:28:07,046 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 10:28:07,052 - agent - ERROR - Invalid encryption token.
+2025-08-24 10:28:21,573 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 10:28:21,582 - agent - ERROR - Invalid encryption token.
+2025-08-24 10:28:21,583 - chat - ERROR - Dekripsi API key gagal.
+2025-08-24 10:48:02,628 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-24 10:48:02,639 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 10:48:02,639 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 10:48:16,460 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 10:48:16,471 - agent - ERROR - Invalid encryption token.
+2025-08-24 10:48:16,471 - chat - ERROR - Gagal mendekripsi chat history.
+2025-08-24 10:53:18,206 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 10:53:18,215 - agent - ERROR - Invalid encryption token.
+2025-08-24 10:53:18,216 - chat - ERROR - Gagal mendekripsi API key. Memeriksa encryption_key.key.
+2025-08-24 10:53:18,216 - chat - ERROR - File encryption_key.key ditemukan, tetapi dekripsi gagal. Pastikan kunci cocok dengan ENCRYPTED_GROQ_API_KEY.
+2025-08-24 11:05:20,326 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-24 11:05:20,336 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 11:05:20,338 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 11:05:38,714 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 11:05:38,726 - agent - ERROR - Invalid encryption token.
+2025-08-24 11:05:38,726 - chat - ERROR - Gagal mendekripsi chat history.
+2025-08-24 11:05:47,220 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 11:06:10,512 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 11:06:41,497 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 11:06:41,506 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 11:06:41,506 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 11:06:58,121 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-24 13:41:31,199 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-24 13:41:31,207 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 13:41:31,209 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 13:41:52,677 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-24 13:42:12,851 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-24 13:46:28,878 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-24 13:46:28,887 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 13:46:28,887 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 13:46:51,116 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-24 13:47:05,699 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-24 13:47:18,294 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 13:47:18,294 - agent - ERROR - Invalid encryption token.
+2025-08-24 13:47:18,294 - chat - ERROR - Gagal mendekripsi chat history.
+2025-08-24 13:47:20,972 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-24 13:47:20,980 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 13:47:20,980 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 22:43:49,340 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-24 22:43:49,351 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-24 22:43:49,351 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-24 22:47:07,799 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-24 22:47:11,379 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-24 22:49:02,141 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 08:26:11,871 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 08:26:11,879 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 08:26:11,880 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 08:27:33,789 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 08:30:48,727 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 08:30:48,734 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 08:30:48,735 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 08:31:03,634 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 08:32:04,501 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-25 08:32:10,951 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 08:32:10,961 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 08:32:10,962 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 08:53:52,148 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 08:53:52,157 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 08:53:52,158 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 08:54:10,435 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-25 09:01:46,355 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:01:46,365 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:01:46,365 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:02:29,079 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:02:29,090 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:02:29,091 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:02:34,022 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:02:34,034 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:02:34,034 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:02:36,493 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:02:36,504 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:02:36,504 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:02:37,554 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:02:37,565 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:02:37,566 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:02:40,440 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:02:40,460 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:02:40,461 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:02:44,814 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:02:44,824 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:02:44,826 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:02:49,972 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:02:49,982 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:02:49,983 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:02:51,091 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:02:51,102 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:02:51,102 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:03:52,108 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:03:52,120 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:03:52,120 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:03:52,245 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:03:52,255 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:03:52,257 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:03:56,976 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-25 09:14:08,907 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:14:08,917 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:14:08,918 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:16:16,294 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:16:16,303 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:16:16,304 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:16:20,361 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-25 09:16:20,363 - agent - WARNING - Makanan air_putih (1 gelas / 200ml) memiliki kalori 0, menggunakan porsi default 100g.
+2025-08-25 09:19:03,266 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:19:03,274 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:19:03,275 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:19:22,886 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:19:22,898 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:19:22,898 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:19:26,249 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:19:26,257 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:19:26,257 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:19:29,716 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:19:29,727 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:19:29,728 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:19:33,052 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:19:33,060 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:19:33,060 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:19:34,335 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:19:34,347 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:19:34,348 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:19:40,805 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:19:40,814 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:19:40,814 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:19:43,573 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:19:43,584 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:19:43,584 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:19:53,911 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:19:53,922 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:19:53,922 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:20:50,431 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 09:20:52,653 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-25 09:23:20,050 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-25 09:24:17,708 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 09:24:35,223 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 09:24:45,889 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 09:25:00,097 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 09:25:10,724 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:25:10,732 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:25:10,733 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-08-25 09:25:12,699 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 09:25:21,500 - __main__ - INFO - Memulai aplikasi dengan mode: Riwayat
+2025-08-25 09:25:58,188 - __main__ - INFO - Memulai aplikasi dengan mode: Chat
+2025-08-25 09:26:03,241 - __main__ - INFO - Memulai aplikasi dengan mode: Perencana Makan
+2025-08-25 09:26:03,251 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-08-25 09:26:03,251 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
