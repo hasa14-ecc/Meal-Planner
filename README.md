@@ -45,4 +45,8 @@ Rencana makan otomatis disarankan sesuai kebutuhan.
 
 Hari Ini: Lihat rencana makan hari ini.
 
+
 Semua Riwayat: Lihat seluruh catatan, diurutkan dari yang terbaru.
+
+
+assests/images/chat.png
